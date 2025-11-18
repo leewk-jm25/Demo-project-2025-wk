@@ -4,7 +4,7 @@ from datetime import datetime
 import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog
 
-DATA_FILE = 'finance_datak.json'
+DATA_FILE = 'finance_datawkle.json'
 
 def load_data():
     if os.path.exists(DATA_FILE):
