@@ -69,7 +69,7 @@ def refresh_output(output, data):
 
 def open_add_expense(root, data, output):
     win = tk.Toplevel(root)
-    win.title('添加支出')
+    win.title('添加支出和收入')
 
     ttk.Label(win, text='金额:').grid(row=0, column=0, padx=5, pady=5)
     amt = ttk.Entry(win)
